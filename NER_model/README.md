@@ -199,7 +199,7 @@
   # 分词器对象
   tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
   # 标签列表
-  with open(PATH, "r",encoding="utf8") as f:
+  with open(LABEL_PATH, "r",encoding="utf8") as f:
       label_list = [i.strip() for i in f.readlines()]
   
   # 输入的句子
