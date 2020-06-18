@@ -90,39 +90,27 @@
   得到的label.txt是应该如下的内容，每行只含有一个label
 
   ~~~
-  B_Abstract
-  B_ABstract
-  B_Abstract
-  B_ABstract
-  B_Abstract
-  B_ABstract
-  B_Abstract
-  B_Location
-  B_Metric
-  B_Organization
-  B_Person
-  B_Physical
-  B_Term
-  B_Thing
-  B_Time
-  I_Abstract
-  I_ABstract
-  I_Abstract
-  I_ABstract
-  I_Abstract
-  I_ABstract
-  I_Abstract
-  I_ABstract
-  I_Abstract
-  I_Location
-  I_Metric
-  I_Organization
-  I_Person
-  I_Physical
-  I_Term
-  I_Thing
-  I_Time
   O
+  I_Time
+  I_Thing
+  I_Term
+  I_Physical
+  I_Person
+  I_Organization
+  I_Metric
+  I_Location
+  I_ABstract
+  I_Abstract
+  B_Time
+  B_Thing
+  B_Term
+  B_Physical
+  B_Person
+  B_Organization
+  B_Metric
+  B_Location
+  B_ABstract
+  B_Abstract
   ~~~
 
 ### Configuration and prepare to fine-tune
