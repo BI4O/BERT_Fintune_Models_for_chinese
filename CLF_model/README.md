@@ -102,7 +102,7 @@ GLUE(General Language Understanding Evaluation)排行榜作为例子，它包括
   ~~~python
   class CustomDataset(Dataset):
       def __init__(self, dataframe, tokenizer, max_len):
-          self.tokennizer = tokenizer
+          self.tokenizer = tokenizer
           self.data = dataframe
           self.comment_text = self.data.comment_text
           self.targets = self.data.list
