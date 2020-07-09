@@ -112,11 +112,11 @@ GLUE(General Language Understanding Evaluation)排行榜作为例子，它包括
           return len(self.comment_text)
       
       def __getitme__(self, index):
-          comment_text = str(self.comment_text)
+          comment_text = str(self.comment_text[index])
           comment_text = " ".join(comment_text.split())
           
           inputs = self.tokenizer.encode_plus(
-          	comment_text,
+          	  comment_text,
               None,
               add_special_tokens=True,
               max_length=self.max_len,
