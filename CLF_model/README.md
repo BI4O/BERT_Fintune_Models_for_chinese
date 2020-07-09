@@ -116,7 +116,7 @@ GLUE(General Language Understanding Evaluation)排行榜作为例子，它包括
           comment_text = " ".join(comment_text.split())
           
           inputs = self.tokenizer.encode_plus(
-          	  comment_text,
+              comment_text,
               None,
               add_special_tokens=True,
               max_length=self.max_len,
