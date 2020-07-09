@@ -207,7 +207,7 @@ GLUE(General Language Understanding Evaluation)排行榜作为例子，它包括
   model.to(device)
   ~~~
 
-- ### Fine Tuning the Model
+- ### 开始模型训练
 
   完成了上述的所有步骤之后，最后一步的微调是比较轻松的。首先定义训练方法（需要指定训练的Epoch）一个Epoch代表全部的训练数据被遍历一遍
 
@@ -250,9 +250,9 @@ GLUE(General Language Understanding Evaluation)排行榜作为例子，它包括
   Epoch: 0, Loss:  0.022630181163549423
   ~~~
 
-- ### Validation the Model
+- ### 模型验证
 
-  拿剩下的20%未经训练的数据作为检验模型的测试集，测试模型的指标捡回是：
+  拿剩下的20%未经训练的数据作为检验模型的测试集，测试模型的指标是：
 
   - Accuracy Score
   - F1 Micro
